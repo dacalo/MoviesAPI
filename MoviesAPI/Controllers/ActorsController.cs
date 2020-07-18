@@ -1,18 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
-using AutoMapper;
-using Microsoft.AspNetCore.Http;
+﻿using AutoMapper;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MoviesAPI.Data;
 using MoviesAPI.DTOs;
 using MoviesAPI.Entities;
-using MoviesAPI.Helpers;
 using MoviesAPI.Services;
+using System.Collections.Generic;
+using System.IO;
+using System.Threading.Tasks;
 
 namespace MoviesAPI.Controllers
 {
